@@ -12,7 +12,7 @@ const CharacterCard = ({ character }) => {
         className={styles["character-card__image"]}
       />
       <p className={styles["character-card__title"]}>{character.name}</p>
-      <div className={styles["character-card__details"]}>
+      <div className={styles["character-card__details-container"]}>
         <span className={styles["character-card__species"]}>
           {t(`rickAndMorty.species.${character.species.toLowerCase()}`)}
         </span>
