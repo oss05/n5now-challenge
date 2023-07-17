@@ -1,4 +1,4 @@
-.characterCard {
+.character-card {
   background-color: #fff;
   border-radius: 8px;
   border: 1px solid #ccc;
@@ -6,24 +6,24 @@
   padding: 16px;
 }
 
-.cardTitle {
+.character-card__title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
-.cardImage {
+.character-card__image {
   width: 100%;
   border-radius: 8px;
   margin-bottom: 16px;
 }
 
-.detailsContainer {
+.character-card__detailsContainer {
   display: flex;
   gap: 8px;
 }
 
-.species {
+.character-card__species {
   font-size: 14px;
   font-weight: 300;
   color: #e8e8e8;
@@ -33,7 +33,7 @@
   text-transform: uppercase;
 }
 
-.status {
+.character-card__status {
   font-size: 14px;
   font-weight: 300;
   color: #ffffff;

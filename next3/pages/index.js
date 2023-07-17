@@ -22,8 +22,8 @@ export default function Home() {
 
   return (
     <MainLayout>
-      <h1>Personajes de Rick y Morty</h1>
-      <div className={styles.cardContainer}>
+      <h1>Personajes de Harry Potter</h1>
+      <div className={styles.cards__container}>
         {characters.slice(0,25).map((character) => (
           <CharacterCard key={character.id} character={character} />
         ))}

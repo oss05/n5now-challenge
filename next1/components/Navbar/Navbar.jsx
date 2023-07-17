@@ -14,13 +14,13 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <Link href="/">
-          <p className={styles.logoTitle}>N5 Now Challenge</p>
+          <p className={styles['navbar__logo-title']}>N5 Now Challenge</p>
         </Link>
-        <ul className={styles.menu}>
-          <li className={styles.menuItem}>
+        <ul className={styles['navbar__menu']}>
+          <li className={styles['navbar__menu-item']}>
             {i18n.language === 'es' ? (
                 <img
-                  className={styles.menuFlag}
+                  className={styles['navbar__menu-flag']}
                   src="/images/us-flag.png"
                   alt="English"
                   style={{width: 50, height: 50}}
@@ -28,7 +28,7 @@ const Navbar = () => {
                 />
             ) : (
                 <img
-                  className={styles.menuFlag}
+                  className={styles['navbar__menu-flag']}
                   src="/images/mx-flag.png"
                   alt="Español"
                   onClick={() => changeLanguage('es')}
