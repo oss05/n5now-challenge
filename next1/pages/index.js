@@ -9,8 +9,8 @@ const Home = () => {
 
   return (
     <MainLayout>
-      <h1 className={styles.title}>{t('shared.title')}</h1>
-      <div className={styles.cardContainer}>
+      <h1 className={styles.home__title}>{t('shared.title')}</h1>
+      <div className={styles.cards__container}>
         <CardButton
           title="Rick and Morty"
           image="rick-and-morty-thumbnail.png"

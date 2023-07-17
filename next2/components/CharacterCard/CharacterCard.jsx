@@ -5,18 +5,18 @@ const CharacterCard = ({ character }) => {
   const { t } = useTranslation();
 
   return (
-    <div className={styles.characterCard}>
+    <div className={styles["character-card"]}>
       <img
         src={character.image}
         alt="characters"
-        className={styles.cardImage}
+        className={styles["character-card__image"]}
       />
-      <p className={styles.cardTitle}>{character.name}</p>
-      <div className={styles.detailsContainer}>
-        <span className={styles.species}>
+      <p className={styles["character-card__title"]}>{character.name}</p>
+      <div className={styles["character-card__details"]}>
+        <span className={styles["character-card__species"]}>
           {t(`rickAndMorty.species.${character.species.toLowerCase()}`)}
         </span>
-        <span className={styles.status}>
+        <span className={styles["character-card__status"]}>
           {t(`rickAndMorty.status.${character.status.toLowerCase()}`)}
         </span>
       </div>

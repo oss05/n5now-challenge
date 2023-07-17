@@ -1,4 +1,4 @@
-.cardContainer {
+.cards__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 768px) {
-  .cardContainer {
+  .cards__container {
     flex-direction: column;
   }
 }
