@@ -1,0 +1,47 @@
+.characterCard {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 300px;
+}
+
+.cardTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.cardImage {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.detailsContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.species {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #FFAB0D;
+  border-radius: 8px;
+  padding: 2px 6px;
+  text-transform: uppercase;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #751807;
+  border-radius: 8px;
+  padding: 2px 6px;
+  text-transform: uppercase;
+}

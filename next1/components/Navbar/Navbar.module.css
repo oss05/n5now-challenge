@@ -1,0 +1,42 @@
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: fixed;
+  }
+  
+  .container {
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logoTitle {
+   font-size: 24px;
+   font-weight: bold;
+   color: #7a7a7a;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menuItem {
+    margin-right: 10px;
+  }
+  
+  .menuText {
+    font-size: 16px;
+  }
+  
+  .menuFlag {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }

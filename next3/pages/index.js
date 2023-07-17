@@ -24,7 +24,7 @@ export default function Home() {
     <MainLayout>
       <h1>Personajes de Rick y Morty</h1>
       <div className={styles.cardContainer}>
-        {characters.map((character) => (
+        {characters.slice(0,25).map((character) => (
           <CharacterCard key={character.id} character={character} />
         ))}
       </div>

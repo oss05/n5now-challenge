@@ -1,0 +1,31 @@
+{
+  "shared": {
+    "title": "Choose a topic",
+    "more": "See more"
+  },
+  "rickAndMorty": {
+    "species": {
+      "human": "human",
+      "alien": "alien"
+    },
+    "status": {
+      "alive": "alive",
+      "dead": "muerto",
+      "unknown": "desconocido"
+    }
+  },
+  "harryPotter": {
+    "ancestry": {
+      "pure-blood": "pure-blood",
+      "half-blood": "half-blood",
+      "muggleborn": "muggleborn",
+      "muggle": "muggle",
+      "squib": "squib",
+      "": "unknown"
+    },
+    "gender": {
+      "male": "male",
+      "female": "female"
+    }
+  }
+}
